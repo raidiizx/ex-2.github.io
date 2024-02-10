@@ -6,10 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GeeksforGeeks</title>
     <style>
-        * {
-            border: 1px solid red;
-        }
-
         .header {
             background-color: green;
             width: auto;
@@ -19,7 +15,7 @@
             color: white;
         }
 
-        .menu {
+        .Menu {
             background-color: rgb(44, 45, 46);
             color: white;
             width: auto;
@@ -28,24 +24,15 @@
 
         }
 
-        .menu1 {
-            background-color: rgb(44, 45, 46);
-            color: white;
-            padding: 20px;
-
-        }
-
-        .menu2 {
-            background-color: rgb(44, 45, 46);
-            color: white;
-            padding: 20px;
-            padding-right: 1666px;
+        .aligncolumn {
             text-align: center;
+            color: green;
         }
 
-        .columnA {
-            column-count: 3;
-            column-gap: 40px;
+        .columnABC {
+            padding-top: 2%;
+            float: left;
+            width: 33.33%;
         }
     </style>
 </head>
@@ -56,15 +43,29 @@
         <b>GeeksforGeeks</b>
     </div>
     <!-- Menu -->
-    <div class="menu">
-        Algo
-    </div>
-    <!-- Column A -->
-    <div class="columnA">
-        Column A
+    <div class="Menu">
+        <span style="padding-right: 20px;">Algo</span>
+        <span style="padding-right: 20px">DS</span>
+        <span>Language</span>
     </div>
     <!-- Content -->
+
+    <!-- ColumnA -->
+    <div class="columnABC">
+        <div class="aligncolumn"><h1>ColumnA</h1></div>
+        <div>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</div>
+    </div>
+
+    <!-- ComlumnB -->
+    <div class="columnABC">
+        <div class="aligncolumn"><h1>ColumnB</h1></div>
+        <div>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</div>
+    </div>
+
+    <!-- ColumnC -->
+    <div class="columnABC">
+        <div class="aligncolumn"><h1>ColumnC</h1></div>
+        <div>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</div>
+    </div>
 </body>
-
-
 </html>
